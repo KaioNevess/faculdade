@@ -37,7 +37,7 @@ void aprovacao(int nota){
 		cout<<"Conceito: B"<<endl;
 	}
 	else if(nota>= 60 && nota <75){
-		cout<<"Conceito: C"<<endl;
+		cout<<"Conceito: C\"<<endl;
 	}else{
 		cout<<"Reprovado!!"<<endl;
 	}
