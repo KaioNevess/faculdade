@@ -30,8 +30,14 @@ float mediaPond(float n1, float n2, float n3){
 }
 
 void aprovacao(int nota){
-	if(nota >=50){
-		cout<<"Aprovado!!"<<endl;
+	if(nota>=90){
+		cout<<"Conceito: A"<<endl;
+	}
+	else if(nota>=75 && nota<90){
+		cout<<"Conceito: B"<<endl;
+	}
+	else if(nota>= 60 && nota <75){
+		cout<<"Conceito: C"<<endl;
 	}else{
 		cout<<"Reprovado!!"<<endl;
 	}
