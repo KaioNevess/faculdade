@@ -58,7 +58,9 @@ void compra(int codigo, int quantidade){
 int main(){
 	int codigo;
 	int quantidade;
+	
 	tabelaPrecos();
+	
 	cout<<"\nInforme o codigo do produto: ";
 	cin>>codigo;   
 	cout<<"\nInforme a quantidade de produto que deseja comprar: ";
