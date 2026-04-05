@@ -1,5 +1,5 @@
 #include <iostream>
-#include <string> // Importante incluir para usar string
+#include <string>  
 
 using namespace std;
 
