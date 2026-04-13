@@ -41,4 +41,5 @@ int main(){
 	cin>>codigo;
 	
 	cout<<"Seu novo salario e de: R$ "<<aumento(salario, codigo);
+	
 }
