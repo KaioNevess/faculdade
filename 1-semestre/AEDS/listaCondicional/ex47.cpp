@@ -12,7 +12,7 @@ void cedulas(int montante) {
     int resto10 = resto50 % 10;
     
     int nota5 = resto10 / 5;
-    int nota1 = resto10 % 5; /
+    int nota1 = resto10 % 5; tyr67
     
     cout << "Notas de 100 : " << nota100 << endl;
     cout << "Notas de 50 : " << nota50 << endl;
