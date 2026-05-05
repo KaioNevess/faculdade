@@ -5,8 +5,8 @@ void maiorMenor(){
 	int quantidade;
 	cout<<"Digite a quantidade de numeros: ";
 	cin>>quantidade;
-	int num;
-	int maior = 0;
+	float num;
+	float maior = 0;
 	
 	while(quantidade>0){
 		quantidade--;
