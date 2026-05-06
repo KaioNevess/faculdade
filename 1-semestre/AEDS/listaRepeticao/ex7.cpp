@@ -2,12 +2,15 @@
 using namespace std;
 
 void intervalo(int n1, int n2){
+	int soma = 0;
+
 	
 	cout<<"\n Inicio do intervalo: "<<endl;
 	
 	if(n1<n2){
 		while(n1<n2){
 			n1++;
+			soma = soma + n1;
 			
 			cout<<n1<<endl;
 			if(n1==n2 - 1){	
@@ -20,7 +23,7 @@ void intervalo(int n1, int n2){
 	else if(n2<n1){
 		while(n2<n1){
 			n2++;
-			
+			soma = soma + n2;
 			cout<<n2<<endl;
 			
 			if(n1==n2 + 1){	
@@ -31,7 +34,7 @@ void intervalo(int n1, int n2){
 
     }
     
-    
+    cout<<"\n SOMA DOS VALORES: "<<soma;
 }
 
 
