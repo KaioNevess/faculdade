@@ -8,9 +8,21 @@ void maiorMenor(){
 	float num;
 	float maior = 0;
 	
+	int valor_inicial=quantidade;
+	
 	while(quantidade>0){
-		quantidade--;
+		cout<<"Digite aqui: ";
 		cin>>num;
+		
+		if(quantidade == valor_inicial){
+			maior = num;
+		}
+		
+		quantidade--;
+		
+		
+		
+		
 		if(num>maior){
 			maior = num;
 		}
