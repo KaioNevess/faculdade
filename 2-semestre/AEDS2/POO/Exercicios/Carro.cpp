@@ -77,4 +77,3 @@ float Carro::getValor(){
 				<<"Cor: "<<cor<<endl
 				<<"Valor: "<<valor<<endl;
 		}
-

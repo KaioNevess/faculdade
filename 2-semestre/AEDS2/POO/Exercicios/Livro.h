@@ -32,4 +32,3 @@ class Livro {
     string editora;
 };
 #endif
-
