@@ -44,20 +44,31 @@ void calculaPorcentagem(Carro *carros, int tam){
 		}
 	}
 	
+void maiorPaginas(Livro l1, Livro l2){
+	if(l1.getNumeroPaginas() > l2.getNumeroPaginas()){
+		cout<<"O livro "<<l1.getNome() <<" tem maior numero de paginas"<<endl;	
+	}else if (l1.getNumeroPaginas() < l2.getNumeroPaginas()){
+		cout<<"O livro "<<l2.getNome() <<" tem maior numero de paginas"<<endl;	
+	}else{
+		cout<<"Os livros '"<<l1.getNome()<<"' e '"<<l2.getNome()<<"' possuem o mesmo numero de paginas."<<endl;
+	}
+}
+	
 	
 
 
 int main() {
-	/*
+	
     Livro l1;
     cout<<"\n------------CADASTRO LIVRO 1------------"<<endl;
     l1.preencher();
     cout<<"\n------------CADASTRO LIVRO 2------------"<<endl;
     Livro l2;
-    l1.preencher();
+    l2.preencher();
+    maiorPaginas(l1, l2);
     
-    */
-    
+   
+    /*
     int tam=3;
 	Carro *carros=new Carro[tam];
 	
@@ -77,6 +88,6 @@ int main() {
 	calculaPorcentagem(carros, tam);
     
     return 0;
-    
+    */
     
 }

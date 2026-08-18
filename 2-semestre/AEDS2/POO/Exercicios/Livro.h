@@ -18,7 +18,7 @@ class Livro {
     string getAutor();
 
     void setNumeroPaginas(int numeroPaginas);
-    float getNumeroPaginas();
+    int getNumeroPaginas();
 
     void setEditora(string editora);
     string getEditora();
