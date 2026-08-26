@@ -1,5 +1,6 @@
 #include "Motor.h"
 
+
 Motor::Motor(){
 	this->tipo="";
 	this->potencia=0.0;
@@ -35,7 +36,7 @@ void Motor::preencher(){
 	cout<<"Tipo: ";
 	cin>>this->tipo;
 	cout<<"Potencia: ";
-	cin>>this->potencia
+	cin>>this->potencia;
 	cout<<"Consumo: ";
 	cin>>this->consumo;
 }
@@ -43,9 +44,9 @@ void Motor::preencher(){
 void Motor::imprimir(){
 	cout<<"Tipo: "<< tipo << endl
 		<<"Potencia: "<< potencia <<endl
-		<<"Consumo: "<< consumo <<endl
+		<<"Consumo: "<< consumo <<endl;
 				
-		}
 }
+
 
 

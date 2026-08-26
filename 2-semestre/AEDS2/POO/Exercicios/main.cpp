@@ -2,6 +2,7 @@
 #include <string>
 #include "Livro.h"
 #include "Carro.h"
+#include "Motor.h"
 using namespace std;
 
 void maiorque1(Carro *carros, int tam){
@@ -58,7 +59,7 @@ void maiorPaginas(Livro l1, Livro l2){
 
 
 int main() {
-	
+	/*
     Livro l1;
     cout<<"\n------------CADASTRO LIVRO 1------------"<<endl;
     l1.preencher();
@@ -66,7 +67,7 @@ int main() {
     Livro l2;
     l2.preencher();
     maiorPaginas(l1, l2);
-    
+    */
    
     /*
     int tam=3;
@@ -86,8 +87,35 @@ int main() {
 	maiorque1(carros, tam);
 	comparaMarca(carros, tam);
 	calculaPorcentagem(carros, tam);
-    
-    return 0;
     */
+    
+    Motor m1, m2;
+    
+    cout<<"\n----------------Preenchendo Motor 1----------------"<<endl;
+    m1.preencher();
+    cout<<"---------------------------------------------------"<<endl;
+    
+    cout<<"\n----------------Preenchendo Motor 2----------------"<<endl;
+    m2.preencher();
+    cout<<"---------------------------------------------------"<<endl;
+    
+    cout<<"\n----------------------Motor 1----------------------"<<endl;
+    m1.imprimir();
+    cout<<"---------------------------------------------------"<<endl;
+    
+    cout<<"\n----------------------Motor 2----------------------"<<endl;
+    m2.imprimir();
+    cout<<"---------------------------------------------------"<<endl;
+    
+    
+    if(m1.getPotencia()>m2.getPotencia()){
+    	cout<<"A potencia do motor tipo "<<m1.getTipo()<<" e maior que do motor tipo "<<m2.getTipo()<<endl;
+	}else if(m1.getPotencia()<m2.getPotencia()){
+    	cout<<"A potencia do motor tipo "<<m2.getTipo()<<" e maior que do motor tipo "<<m1.getTipo()<<endl;
+	}else{
+		cout<<"Os motores possuem a mesma potecia."<<endl;
+	}
+    return 0;
+    
     
 }
